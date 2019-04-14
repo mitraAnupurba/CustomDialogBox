@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="150dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RATE US"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="@color/ratingBarTop"/>
+
+
+    <com.hsalf.smilerating.SmileRating
+        android:id="@+id/smile_rating"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/rate_button"
+        android:layout_width="match_parent"
+        android:text="DONE"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="@color/retingbarbottom"
+
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:text="RATE LATER"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="4dp"
+        android:background="@color/retingbarbottom"
+
+        />
+
+</LinearLayout>
